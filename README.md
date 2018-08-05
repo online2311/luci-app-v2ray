@@ -21,4 +21,13 @@
 		"domainOverride": ["tls", "http"]
   },
   
-inbound为以上配置方可正常透明代理.
+  
+  
+    "dns": {
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4",
+      "localhost"
+    ]
+    
+inbound  dns 为以上配置方可正常透明代理.
