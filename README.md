@@ -1,6 +1,8 @@
 # luci-app-v2ray
 
-这只是一个使用说明,具体源码看下面两个链接:
+声明我只是个新手,有问题请留言.这是一个存档备份
+
+具体源码来源看下面两个链接:
 
 1.本app从https://github.com/coolsnowwolf/lede/pull/331 中提取
 
