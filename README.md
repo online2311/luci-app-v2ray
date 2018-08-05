@@ -9,3 +9,16 @@
 2.由https://github.com/Dango233/lede/commit/ed30d79ae1653df05e09c28fea330d325394797f 优化
 
 3.简单使用说明
+在服务器设置中,使用配置文件-配置文件类型为JSON时,需确保
+
+  "inbound": {
+    "port": 7070,
+    "protocol": "dokodemo-door",
+    "settings": {
+ 		"followRedirect": true,
+		"timeout": 30
+		},
+		"domainOverride": ["tls", "http"]
+  },
+  
+inbound为以上配置方可正常透明代理.
