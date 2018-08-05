@@ -20,9 +20,9 @@
 					},
 		"domainOverride": ["tls", "http"]
   },
-  
-  
-  
+
+
+
 	"dns": {
 	"servers": [
 		"8.8.8.8",
