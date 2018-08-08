@@ -11,24 +11,24 @@
 3.简单使用说明
 在服务器设置中,使用配置文件-配置文件类型为JSON时,需确保
 
-	"inbound": {
-		"port": 7070,
-		"protocol": "dokodemo-door",
-		"settings": {
-			"followRedirect": true,
-				"timeout": 30
-					},
-		"domainOverride": ["tls", "http"]
+  "inbound": {
+    "port": 7070,
+    "protocol": "dokodemo-door",
+	"address": "",
+    "settings": {
+		"followRedirect": true,
+		"timeout": 30
+    },
+	"domainOverride": ["tls", "http"]
   },
 
 
-
-	"dns": {
-	"servers": [
-		"8.8.8.8",
-		"8.8.4.4",
-		"localhost"
-		]
-	},
+  "dns": {
+    "servers": [
+      "8.8.8.8",
+      "8.8.4.4",
+      "localhost"
+    ]
+  },
     
 inbound  dns 为以上配置方可正常透明代理.
