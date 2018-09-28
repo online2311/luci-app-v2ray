@@ -32,3 +32,6 @@
   },
     
 inbound  dns 为以上配置方可正常透明代理.
+
+
+v2ray服务器搭建脚本https://github.com/1715173329/v2ray-onekey
